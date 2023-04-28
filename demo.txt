@@ -1,4 +1,4 @@
-public class FandLWord {
+	public class FandLWord {
 
 	public static void main(String[] args) {
 		String s="today is mock";
@@ -17,6 +17,7 @@ public class FandLWord {
 			char ch=c[i];
 			c[i]=c[f];
 			c[f]=ch;
+			c[f]= 1;
 		}
 			
 		
